@@ -67,4 +67,9 @@
 /// 重置控制层
 - (void)resetControlView;
 
+/// 隐藏控制层
+- (void)hideControlViewWithAnimated:(BOOL)animated ;
+/// 显示控制层
+- (void)showControlViewWithAnimated:(BOOL)animated ;
+
 @end
